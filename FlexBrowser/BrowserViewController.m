@@ -13,7 +13,7 @@
    
     
     NSURL* baseURL = [NSURL URLWithString:@"https://marknote.github.io"];
-    NSString *html = @"<html><script>function popup(){window.open('https://marknote.github.io/InstantCoder/InstantCoder.html')};</script><body><a href='javascript:popup();'>Loaded</a></body></html>";
+    NSString *html = @"<html><script>function popup(){window.open('https://marknote.github.io/InstantCoder/InstantCoder.html')};</script><body><a href='javascript:popup();'>Click me to pop up a window</a></body></html>";
     [_browser loadHTMLString:html baseURL:baseURL ];
     
 }
